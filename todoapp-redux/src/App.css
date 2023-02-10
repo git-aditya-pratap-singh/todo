@@ -1,0 +1,9 @@
+#list{
+  animation-name: example;
+  animation-duration: 5s;
+  transition-timing-function: ease-in;
+}
+@keyframes example {
+  0%   {left:-100px;}
+  100% {left:0px;}
+}
